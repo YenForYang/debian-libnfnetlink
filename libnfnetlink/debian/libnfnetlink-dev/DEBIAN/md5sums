@@ -1,0 +1,6 @@
+5407a22ea5c7f851a49248ded4326af5  usr/include/libnfnetlink/libnfnetlink.h
+77a71564c23464ef7f680c0ba79b0fe3  usr/include/libnfnetlink/linux_nfnetlink.h
+2355e93828be793f20978ab915548619  usr/include/libnfnetlink/linux_nfnetlink_compat.h
+c645f6735e7216ae26787c2c7f832af0  usr/lib/x86_64-linux-gnu/pkgconfig/libnfnetlink.pc
+0f2d7bbe4ac54956e00c23642bfa86f4  usr/share/doc/libnfnetlink-dev/changelog.Debian.gz
+8945571095bfdcbcf06eba4f73e8bcf0  usr/share/doc/libnfnetlink-dev/copyright

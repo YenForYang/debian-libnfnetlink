@@ -1,0 +1,4 @@
+libnfnetlink-dev_1.0.1-3_amd64.deb libdevel extra
+libnfnetlink0-dbg_1.0.1-3_amd64.deb debug extra
+libnfnetlink0_1.0.1-3_amd64.deb libs extra
+libnfnetlink_1.0.1-3_amd64.buildinfo libs extra

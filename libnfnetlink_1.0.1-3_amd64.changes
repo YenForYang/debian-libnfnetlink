@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Tue, 15 Apr 2014 23:44:14 +0200
+Source: libnfnetlink
+Binary: libnfnetlink0 libnfnetlink0-dbg libnfnetlink-dev
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.0.1-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Alexander Wirt <formorer@debian.org>
+Changed-By: Alexander Wirt <formorer@debian.org>
+Description:
+ libnfnetlink-dev - Development files for libnfnetlink0
+ libnfnetlink0 - Netfilter netlink library
+ libnfnetlink0-dbg - Debugging symbols for libnfnetlink0
+Closes: 736310
+Changes:
+ libnfnetlink (1.0.1-3) unstable; urgency=medium
+ .
+   * [54caaa4] Handle symlink to directory conversion in a policy conform way.
+     Usage of maintscript helpers needs a predepend on dpkg. (Closes: #736310)
+Checksums-Sha1:
+ c8748fecaf9b1e5a5ec632d10c88389b5e64445b 7348 libnfnetlink-dev_1.0.1-3_amd64.deb
+ 88c648b58d5f37fd1dc2a433774bb52981ceac50 26460 libnfnetlink0-dbg_1.0.1-3_amd64.deb
+ ae2396cfd90a83190aa55b2c31c6f0586f15e6ac 32936 libnfnetlink0_1.0.1-3_amd64.deb
+ ec284cef98dd431b6535bad8e13124483d8a80da 6032 libnfnetlink_1.0.1-3_amd64.buildinfo
+Checksums-Sha256:
+ a4b5b76630592af2c961953f7732fcd004d80d01b99ccfc4654cb8b636508181 7348 libnfnetlink-dev_1.0.1-3_amd64.deb
+ 179a2a6deeadc1f870f8675bcc6bd60664c8e6c51bbb8c55194cbb832e3bc94a 26460 libnfnetlink0-dbg_1.0.1-3_amd64.deb
+ 89e5ff42c7a4e43d4bbc5429441f83095a0dcaceb8b86dde902d84a219bf89bd 32936 libnfnetlink0_1.0.1-3_amd64.deb
+ f9a7a76800b437db0d48571147a835a1ab23d96ae71bbeeb8b4f4ebc20289180 6032 libnfnetlink_1.0.1-3_amd64.buildinfo
+Files:
+ e636441a757814fa92f95cae3272dd3d 7348 libdevel extra libnfnetlink-dev_1.0.1-3_amd64.deb
+ 185017395477e1947aaf71d5214e9664 26460 debug extra libnfnetlink0-dbg_1.0.1-3_amd64.deb
+ dc624ba47666f46f06438ae32dc48a45 32936 libs extra libnfnetlink0_1.0.1-3_amd64.deb
+ 567e3eb4fb1e37f0496039af1da67b3b 6032 libs extra libnfnetlink_1.0.1-3_amd64.buildinfo
